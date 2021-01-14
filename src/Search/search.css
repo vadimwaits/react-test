@@ -1,6 +1,15 @@
 .searchbar {
     display: flex;
-    height: 50px;
+    flex-flow: row wrap;
     margin-top: 50px;
     padding: 0 50px;
+}
+.searchbar p {
+    width: 100%;
+    margin: 0 0 20px;
+    text-align: left;
+}
+.searchbar input,
+.searchbar button {
+    height: 50px;
 }
